@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+	<meta charset="UTF-8">
+	<title>WeatherInfo</title>
+</head>
+<body>
+<p>
+	Please select an option
+</p>
+<ol>
+	<li>
+		<a th:href="@{/weather/getAll}">Get all weather info</a>
+	</li>
+	<li>
+		<a th:href="@{/weather/download}">Download info in .xlsx</a>
+	</li>
+</ol>
+</body>
+</html>
